@@ -25,5 +25,16 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	 <repository>
+         <id>internal.repo</id>
+         <name>MyCo Internal Repository</name>
+         <url>http://51.141.26.48:8081</url>
+    </repository>
+    <snapshotRepository>
+         <id>Snapshot.repo</id>
+         <name>Your Snapshot Repository</name>
+         <url>http://51.141.26.48:8081/repository/maven-public/</url>
+    </snapshotRepository>
 
 </project>
